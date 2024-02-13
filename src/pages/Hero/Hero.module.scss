@@ -1,0 +1,36 @@
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  min-height: 100vh;
+}
+
+.heading {
+  padding: 6.25rem 1.25rem 0.75rem;
+  text-transform: uppercase;
+  font-size: calc(1.5rem + 5vw);
+  font-weight: 700;
+  text-wrap: balance;
+
+  @media (min-width: 640px) {
+    font-size: calc(1.5rem + 7vw);
+  }
+
+  @media (min-width: 1024px) {
+    width: 80%;
+  }
+}
+
+.image {
+  position: absolute;
+  top: max(20vh, 9.375rem);
+  right: 0;
+  z-index: -1;
+  width: 80vw;
+  aspect-ratio: 4 / 5;
+  background-color: #dddddd;
+
+  @media (min-width: 640px) {
+    width: max(500px, 40vw);
+  }
+}
