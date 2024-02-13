@@ -8,10 +8,14 @@
 }
 
 .nav {
-  justify-self: end;
-  display: flex;
-  align-items: center;
-  gap: 40px;
+  display: none;
+
+  @media (min-width: 768px) {
+    display: flex;
+    justify-self: end;
+    align-items: center;
+    gap: 40px;
+  }
 }
 
 .link {
