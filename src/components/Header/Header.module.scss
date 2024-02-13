@@ -4,7 +4,7 @@
   display: grid;
   grid-template-columns: auto 1fr;
   width: 100%;
-  padding: 12px 20px;
+  padding: 0.75rem 1.25rem;
 }
 
 .nav {
@@ -14,7 +14,7 @@
     display: flex;
     justify-self: end;
     align-items: center;
-    gap: 40px;
+    gap: 2.5rem;
   }
 }
 
