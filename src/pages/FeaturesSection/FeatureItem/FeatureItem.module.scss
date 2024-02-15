@@ -1,0 +1,13 @@
+.feature {
+  font-size: calc(1.5rem + 1.5vw);
+  text-wrap: balance;
+
+  @media (min-width: 1024px) {
+    font-size: calc(1.5rem + 2vw);
+  }
+}
+
+.index {
+  font-size: calc(1.5rem + 3vw);
+  font-weight: 600;
+}
