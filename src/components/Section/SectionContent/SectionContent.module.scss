@@ -1,8 +1,10 @@
+@use '@styles/utils' as *;
+
 .content {
   padding: 3.75rem 0 5rem 15%;
   width: 70%;
 
-  @media (min-width: 1024px) {
+  @include lg {
     padding-left: 25%;
   }
 }

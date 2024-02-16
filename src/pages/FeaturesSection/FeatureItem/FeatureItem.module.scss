@@ -1,8 +1,10 @@
+@use '@styles/utils' as *;
+
 .feature {
   font-size: calc(1.5rem + 1.5vw);
   text-wrap: balance;
 
-  @media (min-width: 1024px) {
+  @include lg {
     font-size: calc(1.5rem + 2vw);
   }
 }

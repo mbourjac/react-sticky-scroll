@@ -1,3 +1,5 @@
+@use '@styles/utils' as *;
+
 .hero {
   display: flex;
   flex-direction: column;
@@ -12,11 +14,11 @@
   font-weight: 700;
   text-wrap: balance;
 
-  @media (min-width: 640px) {
+  @include sm {
     font-size: calc(1.5rem + 7vw);
   }
 
-  @media (min-width: 1024px) {
+  @include lg {
     width: 80%;
   }
 }
@@ -30,7 +32,7 @@
   aspect-ratio: 4 / 5;
   background-color: #dddddd;
 
-  @media (min-width: 640px) {
+  @include sm {
     width: max(500px, 40vw);
   }
 }
