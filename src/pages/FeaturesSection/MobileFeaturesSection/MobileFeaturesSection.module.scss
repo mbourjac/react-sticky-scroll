@@ -1,0 +1,25 @@
+@use '@styles/utils' as *;
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  padding: 0 15% 5rem;
+
+  @include md {
+    padding: 0 0 5rem 15%;
+  }
+}
+
+.feature {
+  display: flex;
+  align-items: baseline;
+  gap: 0.5rem;
+  font-size: 1.5rem;
+  text-wrap: balance;
+}
+
+.index {
+  font-size: 1.75rem;
+  font-weight: 600;
+}
