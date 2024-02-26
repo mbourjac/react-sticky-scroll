@@ -14,8 +14,6 @@ module.exports = {
   ignorePatterns: [
     'dist',
     '.eslintrc.cjs',
-    'postcss.config.js',
-    'tailwind.config.js',
   ],
   parser: '@typescript-eslint/parser',
   parserOptions: {
