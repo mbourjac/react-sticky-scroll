@@ -3,11 +3,12 @@
 .list {
   display: flex;
   flex-direction: column;
-  gap: 3rem;
-  padding: 0 15% 5rem;
+  gap: 1.5rem;
+  padding: 0 15%;
 
   @include md {
-    padding: 0 0 5rem 15%;
+    gap: 2rem;
+    padding: 0 0 0 15%;
   }
 }
 
@@ -17,9 +18,18 @@
   gap: 0.5rem;
   font-size: 1.5rem;
   text-wrap: balance;
+
+  @include md {
+    gap: 1rem;
+    font-size: 2rem;
+  }
 }
 
 .index {
   font-size: 1.75rem;
   font-weight: 600;
+
+  @include md {
+    font-size: 2.25rem;
+  }
 }
