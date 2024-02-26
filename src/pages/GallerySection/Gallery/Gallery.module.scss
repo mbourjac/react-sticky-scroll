@@ -1,0 +1,12 @@
+.gallery {
+  padding: 3.75rem 0 5rem;
+  padding-left: 25vw;
+  display: flex;
+  gap: 10vw;
+  width: fit-content;
+}
+
+.image {
+  height: 60vh;
+  aspect-ratio: 4 / 5;
+}
