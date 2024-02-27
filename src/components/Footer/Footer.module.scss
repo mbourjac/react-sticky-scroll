@@ -1,0 +1,28 @@
+@use '@styles/utils' as *;
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  padding: 6rem 1.25rem 1.5rem;
+
+  @include md {
+    padding-top: 12rem;
+  }
+}
+
+.heading {
+  color: #0000ff;
+  text-transform: uppercase;
+  font-size: calc(1.5rem + 3vw);
+  font-weight: 700;
+  text-wrap: balance;
+
+  @include sm {
+    font-size: calc(1.5rem + 4vw);
+  }
+
+  @include lg {
+    width: 80%;
+  }
+}
